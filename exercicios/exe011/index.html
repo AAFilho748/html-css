@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em vários disposiotivos diferentes ou simplemente aumente e diminie o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png"type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagens flesivel">
+    </picture>
+
+    <h1>Reproduzindo Àudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HMTL5</p>
+    <audio src="midia/01 Raindrops Keep Fallin' On My.mp3" controls autoplay loop></audio>
+</body>
+</html>
