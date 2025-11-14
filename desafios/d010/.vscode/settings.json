@@ -1,0 +1,9 @@
+{
+    "editor.defaultFormatter": null,
+    "editor.fontSize": 20,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.mouseWheelZoom": true,
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay"
+}
